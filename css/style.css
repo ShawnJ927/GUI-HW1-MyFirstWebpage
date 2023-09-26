@@ -1,0 +1,66 @@
+
+/*
+    File: style.css
+    GUI Assignment: Creating Your First Web Page
+    Shawn Jordan, UMass Lowell Computer Science, shawn_jordan@student.uml.edu
+    Copyright (c) 2023 by Shawn. 
+    All rights reserved.
+    updated by WZ on Sept 9, 2023 at 6:19 PM-->
+    */
+
+/* Set a dark gray background and white text for all text */
+body {
+    background-color: #333;
+    color: white;
+    font-family: Calibri, sans-serif; /* font-family*/
+}
+
+/* Center all headings, paragraphs, and tables */
+h1, h2, h3, h4, h5, h6, p, table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Limit the maximum width of paragraphs */
+p {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px; /* add padding to paragraphs */
+}
+
+/* Set images to be 533px wide with automatic height adjustment */
+img {
+    width: 533px;
+    height: auto;
+}
+
+/* set image class to be centered*/
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* make sure tables are not full width of screen.  */
+table {
+    border-collapse: collapse;
+    width: 80%; /* set table width to 80% of screen */
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #fff; /* create a solid border which is only 1 pixel thick */
+}
+
+/* For the table header */
+th {
+    background-color: #555; /* using slightly different gray color for table header bg */
+    color:  white;
+    padding: 10px;
+}
+
+/* For the table rows */
+tr {
+    background-color: #444; /* using slightly different gray color for table row bg */
+    color: white;
+    padding: 10px;
+}
